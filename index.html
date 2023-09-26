@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form novalidate>
+        <h3>Contacto</h3>
+        <label for="nombreInput">Nombre <span>*</span></label>
+        <input type="text" name="nombreInput" id="nombreInput" placeholder="Nombre">
+        <span class="errorMSG"></span>
+        <label for="emailInput">Correo Electrónico <span>*</span></label>
+        <input type="email" name="emailInput" id="emailInput" placeholder="Email(xxxx@xxxx.xxx)">
+        <span class="errorMSG"></span>
+        <label for="passInput">Contraseña <span>*</span></label>
+        <input type="password" name="passInput" id="passInput" placeholder="Contraseña">
+        <span class="errorMSG"></span>
+        <textarea name="textareaMensaje" id="textareaMensaje" cols="30" rows="10"></textarea>
+        <span class="errorMSG"></span>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
